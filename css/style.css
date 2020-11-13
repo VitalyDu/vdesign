@@ -1,0 +1,1711 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "PT Root UI Web";
+  /* Имя шрифта */
+  src: url("../fonts/PT Root UI_Regular.ttf");
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "PT Root UI Web - Bold";
+  /* Имя шрифта */
+  src: url("../fonts/PT Root UI_Bold.ttf");
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Socialico;
+  /* Имя шрифта */
+  src: url("../fonts/Socialico.ttf");
+  /* Путь к файлу со шрифтом */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  max-width: 1462px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.promo {
+  display: flex;
+  height: 100vh;
+  background: #000;
+}
+.promo .promo-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  background: url("../images/pexels-jean-van-der-meulen-1457842.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo .promo-block .promo-block_menu {
+  margin-top: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.promo .promo-block .promo-block_menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.promo .promo-block .promo-block_menu ul li a {
+  text-decoration: none;
+}
+.promo .promo-block .promo-block_menu ul li.logo {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_menu ul li.logo a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_menu ul li.logo a span {
+  padding: 19px 0px 18px 36px;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_menu ul li.logo a span.logo {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+  padding: 15px 33px 15px 0px;
+  border-right: 1px solid #fff;
+}
+.promo .promo-block .promo-block_menu ul div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 52px;
+}
+.promo .promo-block .promo-block_menu ul div li {
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+  margin-right: 20px;
+}
+.promo .promo-block .promo-block_menu ul div li:last-of-type {
+  margin-right: 0;
+}
+.promo .promo-block .promo-block_menu ul div li a {
+  color: #767676;
+}
+.promo .promo-block .promo-block_menu ul div li a:hover {
+  color: #fff;
+}
+.promo .promo-block .promo-block_menu ul li.contacts {
+  margin-left: 53px;
+  display: flex;
+  align-items: center;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_menu ul li.contacts span.social {
+  height: 55px;
+  border-right: 1px solid #fff;
+}
+.promo .promo-block .promo-block_menu ul li.contacts span.number-email {
+  padding-left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.promo .promo-block .promo-block_menu ul li.contacts span.number-email a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.promo .promo-block .promo-block_title h2 {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "С, оздаём" */
+  font-style: normal;
+  letter-spacing: 0.65px;
+  line-height: normal;
+}
+.promo .promo-block .promo-block_title .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+.promo .promo-block .promo-block_title .text h2 {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 137.75px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Д, изайн и" */
+  font-style: normal;
+  letter-spacing: 0.26px;
+  line-height: normal;
+  padding: 13px 15px 15px 15px;
+  border-right: 1px solid #fff;
+}
+.promo .promo-block .promo-block_title .text h2:last-of-type {
+  border-right: none;
+}
+.promo .promo-block .promo-block_bottom {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-right: 4px solid #fff;
+  height: 30%;
+}
+
+@media (max-width: 1500px) {
+  .promo .promo-block .promo-block_title h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1069px) {
+  .promo .promo-block .promo-block_menu ul li.logo a span {
+    padding: 15px 0px 15px 10px;
+  }
+  .promo .promo-block .promo-block_menu ul li.logo a span.logo {
+    padding: 19px 10px 18px 0px;
+  }
+  .promo .promo-block .promo-block_menu ul div {
+    margin-left: 20px;
+  }
+  .promo .promo-block .promo-block_menu ul li.contacts {
+    margin-left: 20px;
+  }
+  .promo .promo-block .promo-block_menu ul li.contacts span.number-email {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .promo .promo-block .promo-block_title .text h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 916px) {
+  .promo .promo-block .promo-block_menu {
+    margin-top: 20px;
+  }
+  .promo .promo-block .promo-block_menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .promo .promo-block .promo-block_menu ul div {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .promo .promo-block .promo-block_menu ul li.contacts {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .promo .promo-block .promo-block_menu ul li.contacts span.social {
+    display: none;
+  }
+  .promo .promo-block .promo-block_menu ul li.contacts span.number-email {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .promo .promo-block .promo-block_title h2 {
+    font-weight: 500;
+  }
+  .promo .promo-block .promo-block_title .text h2 {
+    padding: 10px 7px 10px 7px;
+  }
+}
+@media (max-width: 475px) {
+  .promo .promo-block .promo-block_title h2 {
+    font-size: 25px;
+  }
+  .promo .promo-block .promo-block_title .text {
+    margin-top: 20px;
+  }
+  .promo .promo-block .promo-block_title .text h2 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .promo .promo-block .promo-block_menu ul div li {
+    letter-spacing: 0.3px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 335px) {
+  .promo .promo-block .promo-block_title .text h2 {
+    padding: 10px 5px 10px 5px;
+  }
+  .promo .promo-block .promo-block_title .text h2:last-of-type {
+    padding-right: 0px;
+  }
+  .promo .promo-block .promo-block_title .text h2:first-of-type {
+    padding-left: 0px;
+  }
+}
+.quiz {
+  display: flex;
+  position: relative;
+}
+.quiz span.logo {
+  position: absolute;
+  left: -150px;
+  top: 250px;
+  opacity: 0.1;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 150px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /*Textstylefor"vdesign"*/
+  font-style: normal;
+  letter-spacing: 1rem;
+  line-height: normal;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.quiz .quiz-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 105px 0px 147px 0px;
+}
+.quiz .quiz-block .quiz-block_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 349px;
+}
+.quiz .quiz-block .quiz-block_text h2 {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "Б, ыстрый" */
+  font-style: normal;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+}
+.quiz .quiz-block .quiz-block_text h2 .title-border-bottom {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  border-bottom: 1px solid #000;
+}
+.quiz .quiz-block .quiz-block_text p {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "Ответьте н" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin-top: 51px;
+}
+.quiz .quiz-block .quiz-block_text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "Далее" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 23px 104px 23px 105px;
+  background-color: #000000;
+  margin-top: 61px;
+}
+.quiz .quiz-block .quiz-block_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1019px;
+  width: 100%;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-] {
+  display: none;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-] + label {
+  display: flex;
+  width: 237px;
+  height: 173px;
+  color: #fff;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-] + label .backdrop {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-] + label .backdrop span {
+  margin-right: 15px;
+  margin-bottom: 21px;
+  color: #fff;
+  z-index: 9999;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-]:checked + label {
+  background: #000;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-]:checked + label .backdrop {
+  opacity: 0.5;
+}
+.quiz .quiz-block .quiz-block_photos [id^=radio-]:checked + label span {
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+  cursor: text;
+}
+
+@media (max-width: 1500px) {
+  .quiz span.logo {
+    top: 200px;
+    font-size: 100px;
+  }
+  .quiz .quiz-block {
+    padding: 50px 20px 70px 20px;
+  }
+  .quiz .quiz-block .quiz-block_text h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .quiz .quiz-block .quiz-block_text p {
+    font-size: 15px;
+  }
+  .quiz .quiz-block .quiz-block_text a {
+    font-size: 15px;
+    padding: 15px 52px 15px 52px;
+  }
+}
+@media (max-width: 1317px) {
+  .quiz .quiz-block .quiz-block_photos [id^=radio-] + label {
+    width: 24%;
+  }
+}
+@media (max-width: 1000px) {
+  .quiz span.logo {
+    top: 180px;
+    left: 10%;
+    font-size: 60px;
+  }
+  .quiz .quiz-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quiz .quiz-block .quiz-block_text {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .quiz .quiz-block .quiz-block_photos {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .quiz .quiz-block .quiz-block_photos [id^=radio-] + label {
+    width: 182px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 414px) {
+  .quiz .quiz-block .quiz-block_photos {
+    justify-content: space-between;
+  }
+  .quiz .quiz-block .quiz-block_photos [id^=radio-] + label {
+    width: 48%;
+  }
+}
+.call-back {
+  display: flex;
+  background: #000;
+  position: relative;
+}
+.call-back span.logo {
+  position: absolute;
+  right: -150px;
+  top: 300px;
+  opacity: 0.1;
+  color: #fff;
+  font-family: "PT Root UI Web";
+  font-size: 150px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /*Textstylefor"vdesign"*/
+  font-style: normal;
+  letter-spacing: 1rem;
+  line-height: normal;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.call-back .call-back-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background: url("../images/pexels-vecislavas-popa-1571457.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 117px 0px 91px 0px;
+}
+.call-back .call-back-block .call-back-block_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 301px;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_left h3 {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "М, ы делае" */
+  font-style: normal;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_left h3 .title-border-bottom {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  border-bottom: 1px solid #fff;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_left p {
+  margin-top: 44px;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "Очень важн" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_left a {
+  margin-top: 61px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "Оставить з" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 24px 41px 23px 41px;
+  background-color: #ffffff;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: 174px;
+  max-width: 747px;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 187px;
+  padding: 50px;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block div {
+  -webkit-clip-path: url("../images/measure.svg");
+          clip-path: url("../images/measure.svg");
+  height: 100px;
+  width: 100px;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block svg {
+  fill: #fff;
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block img {
+  filter: invert(1);
+}
+.call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block span {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Б, есплатн" */
+  font-style: normal;
+  letter-spacing: 0.73px;
+  line-height: normal;
+  margin-top: 22px;
+}
+.call-back .call-back-block .call-back-block_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27px;
+  width: 100%;
+}
+.call-back .call-back-block .call-back-block_bottom span {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "Стоимость" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.call-back .call-back-block .call-back-block_bottom a {
+  margin-top: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "Получить к" */
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 24px 62px 21px 41px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1500px) {
+  .call-back span.logo {
+    top: 225px;
+    font-size: 100px;
+  }
+  .call-back .call-back-block {
+    padding: 57px 20px 50px 20px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left p {
+    font-size: 15px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left a {
+    font-size: 15px;
+    padding: 15px 52px 15px 52px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block {
+    padding: 10px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block span {
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .call-back .call-back-block .call-back-block_bottom {
+    margin-top: 15px;
+  }
+  .call-back .call-back-block .call-back-block_bottom span {
+    font-size: 15px;
+  }
+  .call-back .call-back-block .call-back-block_bottom a {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px 52px 15px 52px;
+  }
+}
+@media (max-width: 1073px) {
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right {
+    margin-left: 0;
+  }
+}
+@media (max-width: 899px) {
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right {
+    width: 100%;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block {
+    width: 33%;
+  }
+}
+@media (max-width: 640px) {
+  .call-back .call-back-block .call-back-block_top {
+    flex-direction: column;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left {
+    align-items: center;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_left a {
+    margin-top: 20px;
+  }
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .call-back .call-back-block .call-back-block_bottom span {
+    text-align: center;
+    max-width: 350px;
+  }
+}
+@media (max-width: 395px) {
+  .call-back .call-back-block .call-back-block_top .call-back-block_top_right .call-back-block_top_right_block {
+    width: 49%;
+  }
+  .call-back .call-back-block .call-back-block_bottom a {
+    padding: 15px 30px 15px 30px;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+  }
+}
+.projects {
+  display: flex;
+}
+.projects .projects-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 117px 0px 53px 0px;
+}
+.projects .projects-block .projects-block_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.projects .projects-block .projects-block_left h2 {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+}
+.projects .projects-block .projects-block_left h2 .title-border-bottom {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  border-bottom: 1px solid #000;
+}
+.projects .projects-block .projects-block_left ul {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.projects .projects-block .projects-block_left ul li {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-family: "PT Root UI Web - Bold";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-family: "PT Root UI Web - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.projects .projects-block .projects-block_left ul li:last-of-type {
+  margin-bottom: 0;
+}
+.projects .projects-block .projects-block_left a {
+  margin-top: 66px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 23px 104px 23px 105px;
+  background-color: #000000;
+}
+.projects .projects-block .projects-block_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slide-number {
+  display: flex;
+  justify-content: flex-end;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slide-number span {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 892px;
+  width: 100%;
+  height: 100%;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel .carousel-indicators {
+  bottom: -53px;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel .carousel-indicators li {
+  height: 9px;
+  width: 9px;
+  background: #000;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel .carousel-indicators li.active {
+  opacity: 0.3;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel-control-prev, .projects .projects-block .projects-block_right .projects-block_right_slider .carousel-control-next {
+  position: relative;
+  opacity: 1;
+  width: 26px;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-prev {
+  margin-right: 34px;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-next {
+  margin-left: 24px;
+}
+.projects .projects-block .projects-block_right .projects-block_right_slider-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1500px) {
+  .projects .projects-block {
+    padding: 58px 20px 80px 20px;
+  }
+  .projects .projects-block .projects-block_left h2 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .projects .projects-block .projects-block_left ul li {
+    font-size: 15px;
+  }
+  .projects .projects-block .projects-block_left a {
+    font-size: 15px;
+    padding: 15px 52px 15px 52px;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slide-number span {
+    font-weight: 500;
+  }
+}
+@media (max-width: 830px) {
+  .projects .projects-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects .projects-block .projects-block_left {
+    align-items: flex-start;
+  }
+  .projects .projects-block .projects-block_left ul {
+    margin-top: 20px;
+  }
+  .projects .projects-block .projects-block_left a {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .projects .projects-block .projects-block_right .projects-block_right_slider {
+    margin-top: 10px;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slider .carousel-control-prev, .projects .projects-block .projects-block_right .projects-block_right_slider .carousel-control-next {
+    width: 13px;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-prev {
+    margin-right: 5px;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-prev span.carousel-control-prev img {
+    width: 100%;
+    height: 100%;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-next {
+    margin-left: 5px;
+  }
+  .projects .projects-block .projects-block_right .projects-block_right_slider a.carousel-control-next span.carousel-control-next img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.about {
+  display: flex;
+  background: #000;
+  position: relative;
+}
+.about .border-center {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 55%;
+  background: #fff;
+}
+.about .about-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: url("../images/about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 110px 0px 164px 0px;
+}
+.about .about-block .about-block_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about .about-block .about-block_title h2 {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+}
+.about .about-block .about-block_title h2 .title-border-bottom {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  border-bottom: 1px solid #fff;
+}
+.about .about-block .about-block_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 61px;
+  position: relative;
+}
+.about .about-block .about-block_content span.logo {
+  position: absolute;
+  left: 0px;
+  top: -200px;
+  opacity: 0.05;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 400px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1rem;
+  line-height: normal;
+}
+.about .about-block .about-block_content .about-block_content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 490px;
+}
+.about .about-block .about-block_content .about-block_content_left p {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-family: "PT Root UI Web - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-family: "PT Root UI Web";
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.about .about-block .about-block_content .about-block_content_left span {
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-family: "PT Root UI Web - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-family: "PT Root UI Web";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.about .about-block .about-block_content .about-block_content_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 490px;
+}
+.about .about-block .about-block_content .about-block_content_right p {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.about .about-block .about-block_content .about-block_content_right p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1500px) {
+  .about .about-block .about-block_title h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .about .about-block .about-block_content .about-block_content_left p {
+    font-size: 15px;
+  }
+  .about .about-block .about-block_content .about-block_content_left span {
+    font-size: 15px;
+  }
+  .about .about-block .about-block_content .about-block_content_right p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1210px) {
+  .about .border-center {
+    display: none;
+  }
+}
+@media (max-width: 1070px) {
+  .about .border-center {
+    display: none;
+  }
+  .about .about-block {
+    padding: 110px 20px 164px 20px;
+  }
+  .about .about-block .about-block_content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .about .about-block .about-block_content .about-block_content_left {
+    max-width: 700px;
+  }
+  .about .about-block .about-block_content .about-block_content_left span {
+    margin-top: 10px;
+  }
+  .about .about-block .about-block_content .about-block_content_right {
+    margin-top: 30px;
+    max-width: 700px;
+  }
+  .about .about-block .about-block_content .about-block_content_right p {
+    margin-bottom: 10px;
+  }
+  .about .about-block .about-block_content .about-block_content_right p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.ask {
+  display: flex;
+}
+.ask .ask-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 72px 0px 24px 0px;
+}
+.ask .ask-block .ask-block_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ask .ask-block .ask-block_top .ask-block_top_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 592px;
+}
+.ask .ask-block .ask-block_top .ask-block_top_left h2 {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+}
+.ask .ask-block .ask-block_top .ask-block_top_left h2 .title-border-bottom {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  border-bottom: 1px solid #000;
+}
+.ask .ask-block .ask-block_top .ask-block_top_left p {
+  margin-top: 77px;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.ask .ask-block .ask-block_top .ask-block_top_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ask .ask-block .ask-block_top .ask-block_top_right img {
+  width: 453px;
+  height: 307px;
+}
+.ask .ask-block .ask-block_top .ask-block_top_right span.name {
+  margin-top: 29px;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.ask .ask-block .ask-block_top .ask-block_top_right span.who-is {
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.ask .ask-block .ask-block_bottom {
+  display: flex;
+  justify-content: center;
+}
+.ask .ask-block .ask-block_bottom a.down {
+  text-decoration: none;
+}
+
+@media (max-width: 1500px) {
+  .ask .ask-block {
+    padding: 72px 20px 24px 20px;
+  }
+  .ask .ask-block .ask-block_top .ask-block_top_left h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .ask .ask-block .ask-block_top .ask-block_top_left p {
+    font-size: 15px;
+  }
+  .ask .ask-block .ask-block_top .ask-block_top_right span.name {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .ask .ask-block .ask-block_top .ask-block_top_right span.who-is {
+    font-size: 15px;
+  }
+}
+@media (max-width: 990px) {
+  .ask .ask-block .ask-block_top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ask .ask-block .ask-block_top .ask-block_top_left p {
+    margin-top: 20px;
+  }
+  .ask .ask-block .ask-block_bottom {
+    margin-top: 10px;
+  }
+}
+.footer {
+  display: flex;
+  background: #000;
+}
+.footer .footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background: url("../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 92px 0px 162px 0px;
+}
+.footer .footer-block .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer .footer-block .title h3 {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.footer .footer-block .form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 29px;
+}
+.footer .footer-block .form input[type=text] {
+  margin-right: 26px;
+  outline: none;
+  display: flex;
+  padding-left: 19px;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  background: none;
+  border: 2px solid #fff;
+  width: 306px;
+  height: 66px;
+}
+.footer .footer-block .form input[type=text]::placeholder {
+  color: #fff;
+}
+.footer .footer-block .form input[type=text]:last-of-type {
+  margin-right: 48px;
+}
+.footer .footer-block .form input[type=submit] {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 63px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.footer .footer-block .menu {
+  margin-top: 73px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-block .menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+.footer .footer-block .menu ul li a {
+  text-decoration: none;
+}
+.footer .footer-block .menu ul li.logo {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+}
+.footer .footer-block .menu ul li.logo a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+}
+.footer .footer-block .menu ul li.logo a span {
+  padding: 19px 0px 18px 36px;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+.footer .footer-block .menu ul li.logo a span.logo {
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.37px;
+  line-height: normal;
+  padding: 15px 33px 15px 0px;
+  border-right: 1px solid #fff;
+}
+.footer .footer-block .menu ul div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 52px;
+}
+.footer .footer-block .menu ul div li {
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+  margin-right: 20px;
+}
+.footer .footer-block .menu ul div li:last-of-type {
+  margin-right: 0;
+}
+.footer .footer-block .menu ul div li a {
+  color: #767676;
+}
+.footer .footer-block .menu ul div li a:hover {
+  color: #fff;
+}
+.footer .footer-block .menu ul li.contacts {
+  margin-left: 53px;
+  display: flex;
+  align-items: center;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+.footer .footer-block .menu ul li.contacts span.social {
+  padding: 17px 28px 15px 0px;
+  border-right: 1px solid #fff;
+}
+.footer .footer-block .menu ul li.contacts span.social a {
+  color: #fff;
+  font-family: Socialico;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-right: 12px;
+}
+.footer .footer-block .menu ul li.contacts span.social a:last-of-type {
+  margin-right: 0;
+}
+.footer .footer-block .menu ul li.contacts span.number-email {
+  padding-left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer .footer-block .menu ul li.contacts span.number-email a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "PT Root UI Web";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+}
+
+@media (max-width: 1500px) {
+  .footer .footer-block .title h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .footer .footer-block .form input[type=text] {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1112px) {
+  .footer .footer-block .menu {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-block .menu ul li.logo a span {
+    padding: 15px 0px 15px 10px;
+  }
+  .footer .footer-block .menu ul li.logo a span.logo {
+    padding: 19px 10px 18px 0px;
+  }
+  .footer .footer-block .menu ul div {
+    margin-left: 20px;
+  }
+  .footer .footer-block .menu ul li.contacts {
+    margin-left: 20px;
+  }
+  .footer .footer-block .menu ul li.contacts span.social {
+    padding: 17px 10px 15px 0px;
+  }
+  .footer .footer-block .menu ul li.contacts span.number-email {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 990px) {
+  .footer .footer-block .form {
+    flex-direction: column;
+  }
+  .footer .footer-block .form input {
+    margin-bottom: 20px;
+  }
+  .footer .footer-block .form input:last-of-type {
+    margin-bottom: 0;
+  }
+  .footer .footer-block .form input[type=text] {
+    margin-right: 0;
+  }
+  .footer .footer-block .form input[type=submit] {
+    margin-left: 0;
+  }
+}
+@media (max-width: 963px) {
+  .footer .footer-block .menu {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-block .menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-block .menu ul div {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .footer .footer-block .menu ul li.contacts {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .footer .footer-block .menu ul li.contacts span.social {
+    padding-right: 10px;
+  }
+  .footer .footer-block .menu ul li.contacts span.number-email {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .footer .footer-block .menu ul div li {
+    letter-spacing: 0.3px;
+    margin-right: 10px;
+  }
+}

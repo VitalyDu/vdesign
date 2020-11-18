@@ -6,10 +6,10 @@
           _sliderWrapper = _mainElement.querySelector('.quiz-block_asks_block'), // обертка для .slider-item
           _sliderItems = _mainElement.querySelectorAll('.quiz-item'), // элементы (.slider-item)
           _sliderFirst = _mainElement.querySelectorAll('.quiz-block_asks_first-ask'), // элементы (.slider-item)
-        //   _sliderSecond = _mainElement.querySelectorAll('.quiz-block_asks_second-ask'), // элементы (.slider-item)
-        //   _sliderThird = _mainElement.querySelectorAll('.quiz-block_asks_third-ask'), // элементы (.slider-item)
-        //   _sliderForth = _mainElement.querySelectorAll('.quiz-block_asks_forth-ask'), // элементы (.slider-item)
-        //   _sliderFiveth = _mainElement.querySelectorAll('.quiz-block_asks_fiveth-ask'), // элементы (.slider-item)
+          _sliderSecond = _mainElement.querySelectorAll('.quiz-block_asks_second-ask'), // элементы (.slider-item)
+          _sliderThird = _mainElement.querySelectorAll('.quiz-block_asks_third-ask'), // элементы (.slider-item)
+          _sliderForth = _mainElement.querySelectorAll('.quiz-block_asks_forth-ask'), // элементы (.slider-item)
+          _sliderFiveth = _mainElement.querySelectorAll('.quiz-block_asks_fiveth-ask'), // элементы (.slider-item)
           _sliderControls = _mainElement.querySelectorAll('.quiz-btns'), // элементы управления
           _sliderControlLeft = _mainElement.querySelector('.prev-quiz'), // кнопка "LEFT"
           _sliderControlRight = _mainElement.querySelector('.next-quiz'), // кнопка "RIGHT"
@@ -23,9 +23,6 @@
         // наполнение массива _items
         _sliderItems.forEach(function (item, index) {
           _items.push({ item: item, position: index, transform: 0 });
-          if (transform == 1){
-            _sliderFirst.classList.add('active');
-          }
         });
 
         var position = {

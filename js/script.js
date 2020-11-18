@@ -1,7 +1,7 @@
-$('.slider').each(function() {
+$('.quiz-block_asks').each(function() {
   var $this = $(this);
-  var $group = $this.find('.slide_group');
-  var $slides = $this.find('.slide');
+  var $group = $this.find('.quiz-block_asks_block');
+  var $slides = $this.find('.quiz-item');
   var bulletArray = [];
   var currentIndex = 0;
   var timeout;
@@ -57,7 +57,7 @@ $('.slider').each(function() {
     }, 4000);
   }
   
-  $('.next_btn').on('click', function() {
+  $('.next-quiz').on('click', function() {
     if (currentIndex < ($slides.length - 1)) {
       move(currentIndex + 1);
     } else {
@@ -65,7 +65,7 @@ $('.slider').each(function() {
     }
   });
   
-  $('.previous_btn').on('click', function() {
+  $('.prev-quiz').on('click', function() {
     if (currentIndex !== 0) {
       move(currentIndex - 1);
     } else {
